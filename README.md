@@ -1,7 +1,6 @@
 ### Under construction
 
-### Paper - [**SAfE: Self-Attention Based Unsupervised Road Safety Classification in
-Hazardous Environments**](link to paper)
+### Paper - [**SAfE: Self-Attention Based Unsupervised Road Safety Classification in Hazardous Environments**](link to paper)
 
 Project Page - https://gamma.umd.edu/link
 

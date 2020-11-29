@@ -11,7 +11,7 @@ citation
 ```
 
 <p align="center">
-<img src="figures/cover.png" width="360">
+<img src="cover_pic.png" width="360">
 </p>
 
 Table of Contents

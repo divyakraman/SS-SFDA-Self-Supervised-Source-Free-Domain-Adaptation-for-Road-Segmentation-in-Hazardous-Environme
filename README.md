@@ -1,4 +1,4 @@
-### Under construction
+### Link to paper and project page to be added
 
 ### Paper - [**SAfE: Self-Attention Based Unsupervised Road Safety Classification in Hazardous Environments**](link to paper)
 

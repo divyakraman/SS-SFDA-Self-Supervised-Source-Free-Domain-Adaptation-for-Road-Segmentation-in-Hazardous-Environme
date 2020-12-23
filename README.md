@@ -1,5 +1,3 @@
-### Link to paper and project page to be added
-
 ### Paper - [**SAfE: Self-Attention Based Unsupervised Road Safety Classification in Hazardous Environments**](https://arxiv.org/abs/2012.08939)
 
 Project Page - https://gamma.umd.edu/researchdirections/autonomousdriving/weathersafe/

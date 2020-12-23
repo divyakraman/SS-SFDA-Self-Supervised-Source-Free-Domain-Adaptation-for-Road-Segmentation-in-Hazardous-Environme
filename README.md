@@ -1,13 +1,18 @@
 ### Link to paper and project page to be added
 
-### Paper - [**SAfE: Self-Attention Based Unsupervised Road Safety Classification in Hazardous Environments**](link to paper)
+### Paper - [**SAfE: Self-Attention Based Unsupervised Road Safety Classification in Hazardous Environments**](https://arxiv.org/abs/2012.08939)
 
-Project Page - https://gamma.umd.edu/link
+Project Page - https://gamma.umd.edu/researchdirections/autonomousdriving/weathersafe/
 
 Please cite our paper if you find it useful.
 
 ```
-citation
+@article{kothandaraman2020safe,
+  title={SAfE: Self-Attention Based Unsupervised Road Safety Classification in Hazardous Environments},
+  author={Kothandaraman, Divya and Chandra, Rohan and Manocha, Dinesh},
+  journal={arXiv preprint arXiv:2012.08939},
+  year={2020}
+}
 ```
 
 <p align="center">

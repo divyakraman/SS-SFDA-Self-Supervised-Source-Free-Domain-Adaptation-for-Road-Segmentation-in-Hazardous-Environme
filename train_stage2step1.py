@@ -19,7 +19,6 @@ import matplotlib.pyplot as plt
 import random
  
 from model.drnd38_attention import *
-from utils.loss import CrossEntropy2d
 from dataset.weather import weatherDataSet
 
 os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID" 

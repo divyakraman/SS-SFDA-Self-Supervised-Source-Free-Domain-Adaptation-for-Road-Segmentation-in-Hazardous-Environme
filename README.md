@@ -7,16 +7,12 @@ Project Page - https://gamma.umd.edu/researchdirections/autonomousdriving/weathe
   <iframe src="https://www.youtube.com/embed/rSPIah0liTA"></iframe>
   </figure>
 -->
+![video](https://user-images.githubusercontent.com/18447610/114397934-d6830600-9bbc-11eb-9d96-570819c4b827.gif)
 
-Watch the video at:
-https://user-images.githubusercontent.com/18447610/114395597-33c98800-9bba-11eb-86da-d34e64b4a62f.mp4
-
-
+Watch the entire video [here](https://youtu.be/rSPIah0liTA)
 
 
-
-<!--[![Watch the video](https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/autonomousdriving/SAfE.png)](https://www.youtube.com/watch?v=rSPIah0liTA)-->
-
+<!--[<img src="https://img.youtube.com/vi/rSPIah0liTA/maxresdefault.jpg" width="50%">](https://youtu.be/rSPIah0liTA)-->
 Please cite our paper if you find it useful.
 
 ```
@@ -71,6 +67,12 @@ Coming soon !
 ### Visualization
 Coming soon!
 
+### Our network
+<p align="center">
+<img src="main_architecture.png" width="360">
+</p>
+
+
 ### Training your own model
 Coming soon!
 
@@ -88,6 +90,9 @@ PyTorch <br>
 NumPy <br>
 SciPy <br>
 Matplotlib <br>
+
+
+
 
 
 ## Acknowledgements

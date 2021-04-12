@@ -34,16 +34,27 @@ Python version: 3.7
 
 ### Code structure
 #### Dataloaders <br>
+|Dataset|Dataloader|List of images|
+|-----|-----|-----|
+|Clear weather CityScapes|dataset/cityscapes.py|dataset/cityscapes_list (train_images, val_images, train_labels, val_images)|
+|Synthetic Fog| dataset/cityscapes_fog.py | dataset/cityscapes_list (train_rain_fog, val_rain_fog) |
+|Synthetic Rain | dataset/cityscapes_rain.py | dataset/cityscapes_list (train_rain_fog, val_rain_fog) |
+|Synthetic Rain | dataset/cityscapes_rain.py | dataset/cityscapes_list (train_rain_fog, val_rain_fog) |
+|Real Fog - Foggy Zurich| dataset/foggy_zurich/train(test).py | dataset/foggy_zurich/lists_file_names  |
+|Real, Night Driving - Dark Zurich | dataset/dark_zurich/train(test).py | dataset/dark_zurich/lists_file_names  |
+|Heterogeneous Real, Rain + Night - Raincouver | dataset/raincouver/raincouver.py | dataset/raincouver (train_rain_fog, val_rain_fog) |
+|Heterogeneous Real, Berkeley Deep Drive | ADD | ADD |
 
 #### Models
-
-#### Utils
+model/drnd38.py - DRN-D-38 model
+model/drnd38_attention.py - DRN-D-38 model with self-attention
 
 ### Testing a pretrained model
+Coming soon ! 
 
 
 ### Visualization
-
+Coming soon!
 
 ### Training your own model
 

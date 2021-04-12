@@ -46,7 +46,7 @@ Python version: 3.7
 |Heterogeneous Real, Berkeley Deep Drive | ADD | ADD |
 
 #### Models
-model/drnd38.py - DRN-D-38 model
+model/drnd38.py - DRN-D-38 model <br>
 model/drnd38_attention.py - DRN-D-38 model with self-attention
 
 ### Testing a pretrained model
@@ -57,7 +57,7 @@ Coming soon !
 Coming soon!
 
 ### Training your own model
-
+Coming soon!
 
 ### Datasets
 * [**Clear weather: CityScapes**](https://www.cityscapes-dataset.com/) 

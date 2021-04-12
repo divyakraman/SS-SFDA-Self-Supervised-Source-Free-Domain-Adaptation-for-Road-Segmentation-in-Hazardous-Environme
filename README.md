@@ -48,27 +48,31 @@ Python version: 3.7
 |Real Fog - Foggy Zurich| dataset/foggy_zurich/train(test).py | dataset/foggy_zurich/lists_file_names  |
 |Real, Night Driving - Dark Zurich | dataset/dark_zurich/train(test).py | dataset/dark_zurich/lists_file_names  |
 |Heterogeneous Real, Rain + Night - Raincouver | dataset/raincouver/raincouver.py | dataset/raincouver (train_rain_fog, val_rain_fog) |
-|Heterogeneous Real, Berkeley Deep Drive | ADD | ADD |
+|Heterogeneous Real, Berkeley Deep Drive | dataset/bdd/bdd_{train,val}.py | dataset/bdd/bdd_list |
 
 #### Models
 model/drnd38.py - DRN-D-38 model <br>
 model/drnd38_attention.py - DRN-D-38 model with self-attention
 
-### Testing a pretrained model
-Coming soon ! 
-
-
-### Visualization
-Coming soon!
+<!--
+### Pretrained models
+*Coming soon*
+-->
 
 ### Our network
 <p align="center">
 <img src="main_architecture.png">
 </p>
 
-
 ### Training your own model
-Coming soon!
+
+**Stage 1**: The network is pre-trained on a clear weather dataset such as CityScapes. Use the code train_stage1.py. <br>
+
+**Stage 2**: Divide the entire dataset into minibatches and arrange in the increasing order of intensity (of rain/fog/snow/light). For minibatch, optimize the network in two steps using train_stage2step1.py and train_stage2step3.py. At each minibatch, remember to initialize the network with weights obtained from the previous minibatch of training. For the first minibatch, the network is initialized with weights from stage 1.
+
+**Stage 3**: For heterogeneous real datasets, pick a small subset of images (of the order of 5-10), and finetune the network trained in stage 2 using train_stage3.py.
+
+**Evaluation**: Use eval.py
 
 ### Datasets
 * [**Clear weather: CityScapes**](https://www.cityscapes-dataset.com/) 

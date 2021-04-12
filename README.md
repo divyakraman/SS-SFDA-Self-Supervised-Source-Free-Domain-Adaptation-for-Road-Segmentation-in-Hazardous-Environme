@@ -2,17 +2,11 @@
 
 Project Page - https://gamma.umd.edu/researchdirections/autonomousdriving/weathersafe/ 
 
-<!--
-<figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/rSPIah0liTA"></iframe>
-  </figure>
--->
 ![video](https://user-images.githubusercontent.com/18447610/114397934-d6830600-9bbc-11eb-9d96-570819c4b827.gif)
 
-Watch the entire video [here](https://youtu.be/rSPIah0liTA)
+Watch the entire video [*here*](https://youtu.be/rSPIah0liTA)
 
 
-<!--[<img src="https://img.youtube.com/vi/rSPIah0liTA/maxresdefault.jpg" width="50%">](https://youtu.be/rSPIah0liTA)-->
 Please cite our paper if you find it useful.
 
 ```
@@ -69,7 +63,7 @@ Coming soon!
 
 ### Our network
 <p align="center">
-<img src="main_architecture.png" width="360">
+<img src="main_architecture.png">
 </p>
 
 

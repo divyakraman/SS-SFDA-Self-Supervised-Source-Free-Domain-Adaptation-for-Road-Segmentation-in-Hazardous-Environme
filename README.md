@@ -54,10 +54,9 @@ Python version: 3.7
 model/drnd38.py - DRN-D-38 model <br>
 model/drnd38_attention.py - DRN-D-38 model with self-attention
 
-<!--
 ### Pretrained models
-*Coming soon*
--->
+
+The pretrained models can be found [here](https://drive.google.com/drive/folders/1rHv6BUHPIsB-sGTux9mB01RSbBCskmQO?usp=sharing). Use eval.py to test them.
 
 ### Our network
 <p align="center">

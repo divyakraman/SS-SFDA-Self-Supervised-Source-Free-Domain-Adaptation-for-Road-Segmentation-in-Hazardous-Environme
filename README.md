@@ -1,6 +1,10 @@
 ### Paper - [**SS-SFDA: Semi Supervised Source Free Domain Adaptation for Road Segmentation for Road Segmentation in Hazardous Environments**](https://arxiv.org/abs/2012.08939)
 
-Project Page - https://gamma.umd.edu/researchdirections/autonomousdriving/weathersafe/
+Project Page - https://gamma.umd.edu/researchdirections/autonomousdriving/weathersafe/ 
+
+Watch the video at:
+
+[![Watch the video](https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/autonomousdriving/SAfE.png)](https://www.youtube.com/watch?v=rSPIah0liTA)
 
 Please cite our paper if you find it useful.
 
@@ -74,11 +78,6 @@ NumPy <br>
 SciPy <br>
 Matplotlib <br>
 
-## Our network
-
-<p align="center">
-<img src="main_architecture.png">
-</p>
 
 ## Acknowledgements
 

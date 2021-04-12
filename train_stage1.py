@@ -19,7 +19,6 @@ import matplotlib.pyplot as plt
 import random
 
 from model.drnd38_attention import *
-from utils.loss import CrossEntropy2d
 from dataset.cityscapes import cityscapesDataSet
 from model.discriminator import FCDiscriminator
 

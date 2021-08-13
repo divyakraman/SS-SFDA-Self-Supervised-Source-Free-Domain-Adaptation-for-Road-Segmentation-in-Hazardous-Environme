@@ -67,13 +67,31 @@ The pretrained models can be found [here](https://drive.google.com/drive/folders
 
 ### Training your own model
 
-**Stage 1**: The network is pre-trained on a clear weather dataset such as CityScapes. Use the code train_stage1.py. <br>
+**Stage 1**: The network is pre-trained on a clear weather dataset such as CityScapes. <br>
+```
+python train_stage1.py
+```
 
-**Stage 2**: Divide the entire dataset into minibatches and arrange in the increasing order of intensity (of rain/fog/snow/light). For minibatch, optimize the network in two steps using train_stage2step1.py and train_stage2step3.py. At each minibatch, remember to initialize the network with weights obtained from the previous minibatch of training. For the first minibatch, the network is initialized with weights from stage 1.
-
-**Stage 3**: For heterogeneous real datasets, pick a small subset of images (of the order of 5-10), and finetune the network trained in stage 2 using train_stage3.py.
-
-**Evaluation**: Use eval.py
+**Stage 2**: SS-SFDA
+```
+I. Arrange the images in the increasing order of intensity (of rain/fog/snow/light), and divide into minibatches - provided by the dataset in most cases.
+II. For each minibatch:
+a. Initialize the network with weights from the minibatch (For the first minibatch, initialize from Stage 1)
+b. python train_stage2step1.py 
+c. python train_stage2step3.py. 
+```
+**Stage 3**: Further finetuning for heterogeneous real datasets.
+```
+I. Pick a small subset (random) of images (of the order of 5-10).
+II. Initialize the network with Stage 2 weights.
+III. Finetune the network with knowledge distillation
+python train_stage3.py.
+```
+**Evaluation**: 
+```
+python eval.py
+```
+Make sure to set appropriate paths to the folders containing the datasets, and the models in the training and evaluation files.
 
 ### Datasets
 * [**Clear weather: CityScapes**](https://www.cityscapes-dataset.com/) 
